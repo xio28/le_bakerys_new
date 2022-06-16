@@ -1,0 +1,69 @@
+html{
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background-color: var(--white);
+}
+
+:root {
+    --title-font: clicker;
+    --subtitle-italic: zenloop-italic;
+    --subtitle-regular: zenloop-regular;
+    --body-font: quicksand;
+
+    /** COLORS **/
+    --dark-golden: #FF9F1C; /* Naranja oscuro */
+    --tan: #FFBF69; /* Naranja menos oscuro */
+    --white: #FCFCFC;
+    --light-blue: #CBF3F0;
+    --turquoise: #2EC4B6;
+}
+
+h1, h2 {
+    font-family: var(--title-font);
+}
+
+h3, h4 {
+    font-family: var(--subtitle-regular);
+}
+
+p {
+    font-family: var(--body-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* ******************************************************* */
+/* ************************ FONTS ************************ */
+/* ******************************************************* */
+
+@font-face {
+    font-family: quicksand;
+    src: url(/static/fonts/quicksand/quicksand-variable.ttf);
+}
+
+@font-face {
+    font-family: clicker;
+    src: url(/static/fonts/clicker/ClickerScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: zenloop-italic;
+    src: url(/static/fonts/zenloop/zenloop-italic.ttf);
+}
+
+@font-face {
+    font-family: zenloop-regular;
+    src: url(/static/fonts/zenloop/zenloop-regular.ttf);
+}

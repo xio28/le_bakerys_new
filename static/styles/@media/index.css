@@ -1,0 +1,233 @@
+@media (max-width: 1441px) {
+    .slider-info::before {
+        height: 75%;
+        top: 12.5%;
+    }
+    .slider-info h3 {
+        font-size: 5rem;
+        top: 8%;
+    }
+    .slider-info p {
+        font-size: 2rem;
+    }
+    .slider-info::after {
+        top: -38%
+    }
+}
+
+@media (max-width: 1281px) {
+    header h2 {
+        font-size: 4.8rem;
+    }
+    header nav {
+        width: 80vw;
+    }
+    .slider-info::before {
+        width: 95%;
+        height: 95%;
+        top: 2.5%;
+        left: 2.5%;
+    }
+    .slider-info h3 {
+        width: 90%;
+        font-size: 4.2rem;
+        top: 8%;
+    }
+    .slider-info p {
+        font-size: 1.8rem;
+        width: 85%;
+        top: 5rem;
+    }
+    .bubble {
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 1025px) {
+    h1 {
+        font-size: 13.2rem !important;
+    }
+    header h2 {
+        font-size: 4rem;
+    }
+    header nav {
+        width: 80vw;
+    }
+    .menu-btn {
+        display: flex !important;
+        position: fixed !important;
+    }
+    .menu-items-desk li {
+        display: none;
+    }
+    .sel-slide-btn__container {
+        width: 25%;
+    }
+    .delivery_section {
+        height: 40vh;
+    }
+    .bubble {
+        width: 14rem;
+        height: 14rem;
+        margin-top: 2rem;
+    }
+    .delivery_section h2 {
+        font-size: 3rem !important;
+    }
+    #products_section h2 {
+        font-size: 5rem;
+        margin-bottom: -3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 12.5rem !important;
+        position: relative;
+        top: 3rem;
+    }
+    .menu-items li a {
+        font-size: 5rem;
+    }
+    .logo {
+        width: 25rem;
+        height: 25rem;
+    }
+    .slider-info::before {
+        width: 90%;
+        height: 90%;
+        top: 5%;
+        left: 5%;
+    }
+    .slider-item {
+        flex-direction: column-reverse;
+    }
+    .slider-bg, .slider-info {
+        width: 100%;
+    }
+    .slider-info::after {
+        top: -107%;
+    }
+    .slider-info h3 {
+        margin: 2rem auto;
+        top: 5%;
+    }
+    .slider-info p {
+        font-size: 1.7rem;
+        line-height: 2.5rem !important;
+        margin-top: 0;
+        top: 3rem;
+    }
+    .delivery_section h2 {
+        font-size: 2.5rem !important;
+    }
+    .bubbles__container {
+        justify-content: space-between;
+    }
+    @keyframes slide-from-left {
+        0% {
+            transform: translate(-90vw, -50%);
+            -webkit-transform: translate(-90vw, -50%);
+            -moz-transform: translate(-90vw, -50%);
+            -ms-transform: translate(-90vw, -50%);
+            -o-transform: translate(-90vw, -50%);
+}
+        50% {
+            transform: translate(-65vw, -50%);
+            -webkit-transform: translate(-65vw, -50%);
+            -moz-transform: translate(-65vw, -50%);
+            -ms-transform: translate(-65vw, -50%);
+            -o-transform: translate(-65vw, -50%);
+}
+        75% {
+            transform: translate(-37vw, -50%);
+            -webkit-transform: translate(-37vw, -50%);
+            -moz-transform: translate(-37vw, -50%);
+            -ms-transform: translate(-37vw, -50%);
+            -o-transform: translate(-37vw, -50%);
+}
+        100% {
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+        }
+    }
+    .bakery-food {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .bakery-food div {
+        height: 20rem;
+    }
+    #products_section h2 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 481px) {
+    h1 {
+        font-size: 8.5rem !important ;
+    }
+    header h2 {
+        font-size: 3.5rem !important;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .menu-items li a {
+        font-size: 3rem;
+    }
+    .slider-info::after {
+        top: -117%;
+    }
+    .slider-info p {
+        font-size: 1.3rem;
+        top: 4rem;
+    }
+    .sel-slide-btn__container {
+        width: 35%;
+    }
+    .bubble {
+        width: 10rem;
+        height: 10rem;
+    }
+    .delivery_section {
+        min-height: 30vh !important;
+    }
+}
+
+@media (max-height: 700px) and (orientation: landscape) {
+    h1 {
+        font-size: 9rem !important;
+        position: relative;
+        top: -5rem;
+    }
+    
+    .menu-btn {
+        display: flex !important;
+        position: absolute !important;
+    }
+
+    .logo {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media (max-height: 500px) {
+    h1 {
+        font-size: 6rem !important;
+        position: relative;
+        top: -6rem;
+    }
+    header h2 {
+        font-size: 3rem;
+    }
+    .logo {
+        width: 15rem;
+        height: 15rem;
+    }
+}
